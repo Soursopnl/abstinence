@@ -1,0 +1,50 @@
+
+
+*, *::before, *::after {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+
+body, h1, h2, h3, h4, h5, h6 {
+    line-height:100%;
+    box-sizing:border-box;
+}
+
+
+body {
+    font-size: 24px;
+    //font-family: "LXGW WenKai TC";
+    font-family: system-ui;
+    width:100%;
+    min-height:100vh;
+}
+
+ul[class], ol[class] {
+    list-style:none;
+}
+
+img {
+    max-width:100%;
+    //display:block;
+}
+
+a.pd {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+a {
+    &, &:link, &:hover, &:active, &:visited {
+        color:inherit;
+        text-decoration:none;
+    }
+    color: #222;
+}
+
+button {
+    border:none !important;
+}
